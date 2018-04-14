@@ -1,0 +1,50 @@
+{
+  "name": "react-rollup-simple-config",
+  "version": "1.0.0",
+  "description": "Set-up a React component library with Rollup ✨",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react-proptypes": "^1.0.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "@storybook/react": "^3.4.1",
+    "@storybook/addon-actions": "^3.4.1",
+    "@storybook/addon-links": "^3.4.1",
+    "@storybook/addons": "^3.4.1",
+    "babel-runtime": "^6.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garmjs/react-rollup-simple-config.git"
+  },
+  "keywords": [
+    "react",
+    "rollup",
+    "library",
+    "component",
+    "setup",
+    "config"
+  ],
+  "author": "Armend Gashi <garmjs@outlook.com> (https://armend.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garmjs/react-rollup-simple-config/issues"
+  },
+  "homepage": "https://github.com/garmjs/react-rollup-simple-config#readme"
+}
